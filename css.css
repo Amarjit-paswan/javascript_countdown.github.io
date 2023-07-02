@@ -4,16 +4,18 @@
     box-sizing: border-box;
 }
 
-.main{
+.main .screen{
     width: 100%;
     height: 100vh;
-    background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(computerwallapaper.jpg) center;
-    background-size: cover;
-   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .main .screen{
-    
+    width: 100%;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -21,13 +23,15 @@
 
 .detail h1{
     font-size: 5.5rem;
-    color: rgba(254, 252, 252, 0.804);
+    color: rgb(254, 252, 252);
+    text-shadow: 0 0  5px black;
     margin: 20px 0;
 }
 
 #end_time{
-    font-size: 2rem;
-    color: rgba(254, 252, 252, 0.804);
+    font-size: 3rem;
+    color: rgb(254, 252, 252);
+    text-shadow: 0 0  5px black;
     margin-bottom: 20px;
 }
 
