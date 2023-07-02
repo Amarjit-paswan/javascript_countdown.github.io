@@ -1,4 +1,4 @@
-var end_date = "04 July 2023 4:18 PM";
+var end_date = "04 July 2024 4:18 PM";
 document.getElementById("end_time").innerText = end_date;
 
 var inputs = document.querySelectorAll("input");
