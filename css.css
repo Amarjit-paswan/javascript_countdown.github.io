@@ -23,19 +23,21 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .detail h1{
     font-size: 5.5rem;
     color: rgb(254, 252, 252);
-    text-shadow: 0 0  5px black;
     margin: 20px 0;
+    text-shadow: 0 0  5px black;
 }
 
 #end_time{
     font-size: 3rem;
     color: rgb(254, 252, 252);
     text-shadow: 0 0  5px black;
+
     margin-bottom: 20px;
 }
 
@@ -80,31 +82,16 @@
         height: 60px;
     }
 
-.main{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  
-    background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(computerwallapaper.jpg) center;
-    background-size: cover;
-   
-}
+    .detail h1{
+        font-size: 4rem;
+    }
 
-        .main .screen{
+    .main .screen{
         width: 100%;
         height: 100vh;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-    }
-
-    
-
-    .detail h1{
-        font-size: 4rem;
     }
 }
