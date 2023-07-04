@@ -68,7 +68,7 @@
     color: white;
 }
 
-@media only screen and (max-width: 768px) {
+@media (max-width: 600px) {
 
     
 
@@ -83,7 +83,7 @@
     }
 
     .detail h1{
-        font-size: 4rem;
+        font-size: 3rem;
     }
 
     .main .screen{
