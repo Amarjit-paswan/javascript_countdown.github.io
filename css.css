@@ -92,8 +92,16 @@ body{
     }
 
     .detail h1{
-        font-size: 4rem;
+        font-size: 40px;
     }
+
+    #end_time{
+    font-size: 30px;
+    color: rgb(254, 252, 252);
+    text-shadow: 0 0  5px black;
+
+    margin-bottom: 20px;
+}
 
 
 }
