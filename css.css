@@ -92,11 +92,11 @@ body{
     }
 
     .detail h1{
-        font-size: 30px;
+        font-size: 20px;
     }
 
     #end_time{
-    font-size: 20px;
+    font-size: 15px;
     color: rgb(254, 252, 252);
     text-shadow: 0 0  5px black;
 
